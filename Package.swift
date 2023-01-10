@@ -14,7 +14,7 @@ let package = Package(
             targets: ["FolioReaderKit"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/ZipArchive/ZipArchive.git", from: "2.5.3"),
+        .package(url: "https://github.com/ZipArchive/ZipArchive.git", from: "2.4.3"),
         .package(url: "https://github.com/cxa/MenuItemKit.git", from: "3.2.2"),
         .package(url: "https://github.com/tadija/AEXML.git", from: "4.3.3"),
         .package(url: "https://github.com/ArtSabintsev/FontBlaster.git", from: "5.3.0")
