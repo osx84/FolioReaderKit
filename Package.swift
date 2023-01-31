@@ -28,7 +28,10 @@ let package = Package(
                 "AEXML",
                 "FontBlaster"
             ],
-            path: "Sources"
+            path: "Sources",
+            resources: [
+                .process("Resources"),
+            ]
         ),
     ],
     swiftLanguageVersions: [.v5]
