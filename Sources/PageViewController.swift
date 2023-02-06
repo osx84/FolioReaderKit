@@ -43,7 +43,7 @@ class PageViewController: UIPageViewController {
         segmentedControl.selectedSegmentIndex = index
         segmentedControl.setWidth(100, forSegmentAt: 0)
         segmentedControl.setWidth(100, forSegmentAt: 1)
-        self.navigationItem.titleView = segmentedControl
+//        self.navigationItem.titleView = segmentedControl
 
         viewList = [viewControllerOne, viewControllerTwo]
 
